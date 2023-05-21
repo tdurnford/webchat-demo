@@ -1,4 +1,3 @@
-# 🎂 Happy birthday, Lauren! 🥳
 
 # Getting Started with Create React App
 
