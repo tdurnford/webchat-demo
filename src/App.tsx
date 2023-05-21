@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     (async () => {
       if (!abortSignal.signal.aborted) {
-        const res = await fetch('https://webchat-mockbot.azurewebsites.net/directline/token', { method: 'POST' });
+        const res = await fetch('https://default663d2642cdb541daaba3322403c6cb.a9.environment.api.powerplatform.com/powervirtualagents/botsbyschema/Default_modernDating/directline/token?api-version=2022-03-01-preview', { method: 'GET' });
         const { token } = await res.json();
         setToken(token)
       }
